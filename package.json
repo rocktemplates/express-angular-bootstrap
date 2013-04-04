@@ -1,0 +1,34 @@
+{
+  "name" : "{{package-name}}", 
+  "version" : "0.0.1",
+  "description" :"{{description}}",
+  "homepage" : [
+    ""
+  ],
+  "repository" : {
+    "type" : "git", 
+    "url" : ""
+  },
+  "keywords" : [],
+  "author" : "{{author}} <{{email}}>",
+  "licenses" : [ {
+    "type" : "MIT",
+    "url" : ""
+  }],
+  "dependencies" : {
+    "express": "3.1.x",
+    "fs-extra": "0.6.x",
+    "reload": "0.0.x",
+    "colors": "*"
+  },
+  "devDependencies":{
+    "mocha": "*",
+    "karma": "*",
+    "testutil": "0.5.x",
+    "superagent": "0.14.x"
+  },
+  "main" : "server.js",
+  "scripts": {
+    "test": "mocha"
+  }
+}
